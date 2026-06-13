@@ -6,20 +6,20 @@ class anchr < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/anchr/releases/download/0.2.0/anchr-darwin-arm64.tar.gz"
-      sha256 "6ebf393b68e6994c0fe01a0819fc56b06e89230591786104d24124a661071053"
+      sha256 "5f2964704decf503cd32ec1576741e03383bbefd51ebe2d912a47ace4b5feaf4"
     else
       url "https://github.com/jackjakarta/anchr/releases/download/0.2.0/anchr-darwin-amd64.tar.gz"
-      sha256 "39e611de132bab02161827947bf6dcea588e376b7bceed6b98ee927ae54490cf"
+      sha256 "051051454f888cc8499bfb64ad9b54ed875c3e0a2a990f8aee1fdfa50d4cfe4c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jackjakarta/anchr/releases/download/0.2.0/anchr-linux-arm64.tar.gz"
-      sha256 "1255f9fdd4ccc1bea2589f20164a2f6bb46343d1d764ab2aa594138c9df1732a"
+      sha256 "66d709d7bbd1b297f5c6652e46bc220b233d5bacac89b541002b0a1fce6b1d00"
     else
       url "https://github.com/jackjakarta/anchr/releases/download/0.2.0/anchr-linux-amd64.tar.gz"
-      sha256 "1a33e219133132d6eafdab0d0ff433c8f13d9840cbece17882a873a9cab7d0a3"
+      sha256 "353cd9bf092fda63af799ebce2fd8a96eb480d6c20fe7d7d9dc6f5f4e87910f6"
     end
   end
 
