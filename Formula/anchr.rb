@@ -1,4 +1,4 @@
-class anchr < Formula
+class Anchr < Formula
   desc "A fast terminal UI for browsing S3 and S3-compatible object storage"
   homepage "https://github.com/jackjakarta/anchr"
   version "0.2.0"
